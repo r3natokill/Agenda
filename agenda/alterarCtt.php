@@ -25,4 +25,5 @@ if (isset($_GET['id'])) {
 
 // Fecha a conexão com o banco de dados
 $conn->close();
+
 ?>
