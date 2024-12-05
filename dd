@@ -1,0 +1,56 @@
+Questão 1: A memória do computador funciona, basicamente , armazenando sequências de bytes... O endereço de memória é representado por um número hexadecimal na forma 0x1234
+Letra C 2,4 E 5.
+
+Questão 2: Organizar o código em funções é desejável para se obter um código de fácil compreensão e manutenção
+Letra D
+no main ()
+lst é uma variável inteira e no momento da declaração seu valor é indeterminado.
+pl carrega o endereço 0xffdd40, que é um endereço para uma área de o tipo inteiro.
+NA FUNÇÃO:
+pt_ptl carrega o endereço 0xffdd00, que é um endereço para outro ponteiro.
+ptLista carrega o endereço 0x456, que é um endereço para uma área do tipo inteiro.
+Lista é uma cópia de lst, pois lst é passado por valor para a funcaoA()
+
+Questão 3: Levando em consideração o entendimento do funcionamento lógico da memória RAM
+*px=4 *py=5
+px = <endereço de x> py = <endereço de y> &px = <endereço de px> &py = <endereço de py> x = 4, y = 27
+
+Questão 4: A linguagem de programação C é uma linguagem procedural de alto nível
+Letra C:
+por referência, por valor, por valor, sendo que todas resultam em cópias na funçãoA().
+
+ Questão 5: Considerando que é a memória RAM que tudo acontece enquanto o computador está trabalhando com algoritmos e dados desses algoritmos
+Letra C.
+3 e 4 estão certas
+3. A chamada FUNCAO_1(x, y); na linha 26 passa os valores de x (45) e y (-10) por valor. Isso significa que cópias desses valores são criadas e usadas dentro da função FUNCAO_1.
+4. A LINHA 29 IRÁ MOSTRAR X = 45, Y=-40
+
+Questão 6: int validaCPF(int nro_do_cpf)
+Letra A
+
+Questão 7: Considerando que o tipo primitvo double ocupa 8 bytes de memória, o comando abaixo
+considerando que o tipo primitivo double ocupa 8bytes de memoria, o ocmando abaixo:
+var_double = (double *) malloc (10 * sizeof(double));
+coloca na variável var_double o endereço do primeiro byte da área de 80 bytes alocada estaticamente.
+Resposta: Falso
+
+Questão 8: Ao longo do semestre você adquiriu conhecimentos e desenvolveu habilidades no contexto de Técnicas e Desenvolvimento de Algoritmos.
+Fragmento 1: i = 99, j = 199, *p = 99. Fragmento 2: c = 17, a = 5, b = 12. Fragmento 3: 21, 8, 8, 21
+
+Questão 9:  A alocação dinâmica de memória, na linguagem C, é feita pela função malloc()... LINHA 1 LINHA 2
+LINHA 1: int *ptINT;
+LINHA 2: ptINT = (int *)malloc(1024 * sizeof(int));
+
+Questão 10:  Um ponteiro na linguagem de programação C é um tipo de variável utilizada para acessar diretamente os bytes da memória RAM do computador.
+
+ Alternativa C 1,2 e 3
+
+Questão 11:  Qual é o quarto elemento estudado em ua variável, Explique para que serve este quarto elemento, Busque nas questões desta prova...
+- Endereço.
+- Indica a localização na memoria ram. 
+- Exemplo questão X -> (A linguagem de programação C é uma linguagem procedural de alto nível)
+
+Questão 12: modificação da linha 17, 3, 5...
+void funcaoA(int *i)
+ *i = 0; 
+funcaoA(&i);
